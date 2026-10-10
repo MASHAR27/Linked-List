@@ -1,4 +1,4 @@
-from node import Node
+from node import Node,target_exists,node_count,display_linked_list
 # My nodes
 a = Node(2)
 b = Node(4)
@@ -18,3 +18,6 @@ e.next = f
 f.next = g
 
 
+print(target_exists(a,120))
+print(node_count(a))
+print(display_linked_list(a))

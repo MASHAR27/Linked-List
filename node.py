@@ -15,5 +15,27 @@ def target_exists(head,target):
         
     return False     
         
+ 
+def node_count(head):
+    count = 0
+    current = head
+    while current is not None:
+        count += 1
+        current = current.next 
+    
+    return count    
+     
                 
                 
+
+def display_linked_list(head):
+    current = head
+    
+    while current is not None:
+        print(current.value,end="->")
+        current = current.next                
+        
+        
+        
+        
+        
